@@ -1,0 +1,23 @@
+
+{                                                                                
+  "name": "be.elab.levelg300",                              
+  "displayName": "Gaming Space Level Group",                        
+  "version": "0.0.1",                         
+  "unity": "2018.1",                             
+  "unityRelease": "",                             
+  "description": "You package description",                         
+  "keywords": ["Script","Tool"],                       
+  "dependencies":{},     
+  "relatedPackages":{},     
+  "samples" : [],     
+  "author" : {
+"name":"",
+"mail":"",
+"url":""},     
+  "repository":{
+"type":"Git",
+"url":"https://github.com/EloiStree/2025_02_25_LevelGaming300.git",
+"footprint":"",
+"revision":""},     
+  "category": "Script"                   
+} 
