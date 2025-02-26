@@ -360,6 +360,7 @@ Transform:
   - {fileID: 2107130065601005304}
   - {fileID: 1615278508360461250}
   - {fileID: 1039353974470269102}
+  - {fileID: 2191416061482297106}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1404405907343690539
@@ -1746,7 +1747,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3479
+  m_VersionIndex: 3497
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -1997,6 +1998,41 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &6628314282734474693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2191416061482297106}
+  m_Layer: 0
+  m_Name: Checkpoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2191416061482297106
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6628314282734474693}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.491, z: -0.095}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1766827966994121552}
+  - {fileID: 8390176307060101707}
+  - {fileID: 6490948515207374665}
+  - {fileID: 3972380795996136828}
+  m_Father: {fileID: 62825287608297818}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6636444268398689423
 GameObject:
   m_ObjectHideFlags: 0
@@ -2753,6 +2789,68 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1001 &2056454737724175172
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2191416061482297106}
+    m_Modifications:
+    - target: {fileID: 477081356886811175, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint JDG Prefab Red (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+--- !u!4 &8390176307060101707 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+  m_PrefabInstance: {fileID: 2056454737724175172}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3583984948262706034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2815,6 +2913,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 535b28054235bf541bbb8710e72c01b3, type: 3}
   m_PrefabInstance: {fileID: 3583984948262706034}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3671103425384826438
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2191416061482297106}
+    m_Modifications:
+    - target: {fileID: 477081356886811175, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint JDG Prefab Red (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+--- !u!4 &6490948515207374665 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+  m_PrefabInstance: {fileID: 3671103425384826438}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6256150395762172544
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2873,7 +3033,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9090948886212531144, guid: fe3b3c8ed928f2641aaedb88780e4142, type: 3}
       propertyPath: m_VersionIndex
-      value: 10699
+      value: 10717
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2884,6 +3044,130 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 5470826821302051960, guid: fe3b3c8ed928f2641aaedb88780e4142, type: 3}
   m_PrefabInstance: {fileID: 6256150395762172544}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &6901380622140195955
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2191416061482297106}
+    m_Modifications:
+    - target: {fileID: 477081356886811175, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint JDG Prefab Red (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+--- !u!4 &3972380795996136828 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+  m_PrefabInstance: {fileID: 6901380622140195955}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &8098337415806689887
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 2191416061482297106}
+    m_Modifications:
+    - target: {fileID: 477081356886811175, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint JDG Prefab Red
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+--- !u!4 &1766827966994121552 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
+  m_PrefabInstance: {fileID: 8098337415806689887}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8287184908187277676
 PrefabInstance:
