@@ -197,6 +197,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5681806154149797903}
+  - {fileID: 6649602295241404966}
+  - {fileID: 8387584395738047151}
   - {fileID: 680679727188505916}
   - {fileID: 6547595974166670589}
   - {fileID: 7332988599575455340}
@@ -1187,6 +1189,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 849886331556239482, guid: dd8c145e62469574c8988c6d5ce0db70, type: 3}
   m_PrefabInstance: {fileID: 518203645866365506}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &544707746554687822
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5093582320686561941}
+    m_Modifications:
+    - target: {fileID: 3873067521313882176, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint JDG Prefab Blue (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1.4413
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.5731
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.4631
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+--- !u!4 &6649602295241404966 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+  m_PrefabInstance: {fileID: 544707746554687822}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &544824599912535995
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1425,10 +1489,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5046223136099655485}
     m_Modifications:
-    - target: {fileID: 2545087536794637926, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3538285565145785590, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.54922
@@ -1481,17 +1541,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4534548854474571610, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5205633458993278475, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
       propertyPath: m_Name
       value: Ile avec tente (1)
       objectReference: {fileID: 0}
     - target: {fileID: 6458627059205106825, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
       propertyPath: m_VersionIndex
-      value: 1226
+      value: 1241
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1899,15 +1955,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 1.3148
       objectReference: {fileID: 0}
     - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 0.2569
       objectReference: {fileID: 0}
     - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.0315
+      value: -0.8639
       objectReference: {fileID: 0}
     - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2325,7 +2381,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5758909622526224009, guid: ddddb6f51f3075842937d35d28d0e469, type: 3}
       propertyPath: m_VersionIndex
-      value: 1605
+      value: 1620
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3603,6 +3659,68 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 468178, guid: e9661e4c2bfea8344a07064944abe034, type: 3}
   m_PrefabInstance: {fileID: 3429066225766311483}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &3432232545635574215
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 5093582320686561941}
+    m_Modifications:
+    - target: {fileID: 3873067521313882176, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_Name
+      value: Checkpoint JDG Prefab Blue (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.0315
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+--- !u!4 &8387584395738047151 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6613275199208407912, guid: 7020eb56ff9ed14468466ca412bf6fac, type: 3}
+  m_PrefabInstance: {fileID: 3432232545635574215}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3568672760662666252
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4045,7 +4163,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7832513068936403322, guid: 09e85b7c23d5d704691580e968b18318, type: 3}
       propertyPath: m_VersionIndex
-      value: 3146
+      value: 3161
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5075,7 +5193,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7133503104234350686, guid: 488b5120f39ede44c89298c0d5144be9, type: 3}
       propertyPath: m_VersionIndex
-      value: 3143
+      value: 3158
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7597,7 +7715,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1539065759867267334, guid: b90b172caa956474caa13d70bf83f19c, type: 3}
       propertyPath: m_VersionIndex
-      value: 1544
+      value: 1559
       objectReference: {fileID: 0}
     - target: {fileID: 1762377571038268901, guid: b90b172caa956474caa13d70bf83f19c, type: 3}
       propertyPath: m_LocalPosition.x
