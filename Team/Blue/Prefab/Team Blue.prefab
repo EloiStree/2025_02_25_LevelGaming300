@@ -2521,7 +2521,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5758909622526224009, guid: ddddb6f51f3075842937d35d28d0e469, type: 3}
       propertyPath: m_VersionIndex
+<<<<<<< HEAD
+      value: 1608
+=======
       value: 1653
+>>>>>>> 84648b96aad01ced8b0351fcf4abb6b9b669c269
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2619,10 +2623,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2681526795121354613}
     m_Modifications:
-    - target: {fileID: 2545087536794637926, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 3538285565145785590, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5.4038258
@@ -2663,17 +2663,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4534548854474571610, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
-      propertyPath: m_Mesh
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 5205633458993278475, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
       propertyPath: m_Name
       value: Ile avec tente
       objectReference: {fileID: 0}
     - target: {fileID: 6458627059205106825, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
       propertyPath: m_VersionIndex
+<<<<<<< HEAD
+      value: 1226
+=======
       value: 1274
+>>>>>>> 84648b96aad01ced8b0351fcf4abb6b9b669c269
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4163,7 +4163,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7832513068936403322, guid: 09e85b7c23d5d704691580e968b18318, type: 3}
       propertyPath: m_VersionIndex
+<<<<<<< HEAD
       value: 3161
+=======
+<<<<<<< HEAD
+      value: 3095
+=======
+      value: 3146
+>>>>>>> 84648b96aad01ced8b0351fcf4abb6b9b669c269
+>>>>>>> 1f61b0928c954b7de28ca021275c5f071513a5db
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5193,7 +5201,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7133503104234350686, guid: 488b5120f39ede44c89298c0d5144be9, type: 3}
       propertyPath: m_VersionIndex
+<<<<<<< HEAD
       value: 3158
+=======
+<<<<<<< HEAD
+      value: 3092
+=======
+      value: 3143
+>>>>>>> 84648b96aad01ced8b0351fcf4abb6b9b669c269
+>>>>>>> 1f61b0928c954b7de28ca021275c5f071513a5db
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7715,7 +7731,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1539065759867267334, guid: b90b172caa956474caa13d70bf83f19c, type: 3}
       propertyPath: m_VersionIndex
+<<<<<<< HEAD
       value: 1559
+=======
+<<<<<<< HEAD
+      value: 1493
+=======
+      value: 1544
+>>>>>>> 84648b96aad01ced8b0351fcf4abb6b9b669c269
+>>>>>>> 1f61b0928c954b7de28ca021275c5f071513a5db
       objectReference: {fileID: 0}
     - target: {fileID: 1762377571038268901, guid: b90b172caa956474caa13d70bf83f19c, type: 3}
       propertyPath: m_LocalPosition.x
