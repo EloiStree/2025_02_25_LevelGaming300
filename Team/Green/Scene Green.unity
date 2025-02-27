@@ -3247,6 +3247,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1341758304}
+    - target: {fileID: 6867278905416376, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
+      propertyPath: m_VersionIndex
+      value: 4126
+      objectReference: {fileID: 0}
     - target: {fileID: 1232576302276997919, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3303,6 +3307,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1179135048}
+    - target: {fileID: 2200957982840505716, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3309
+      objectReference: {fileID: 0}
     - target: {fileID: 2604508704825949772, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3323,6 +3331,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 621982809}
+    - target: {fileID: 4343953103229648784, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
+      propertyPath: m_VersionIndex
+      value: 4438
+      objectReference: {fileID: 0}
     - target: {fileID: 4403826719770290533, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3339,6 +3351,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1310354301}
+    - target: {fileID: 4925101716130856116, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
+      propertyPath: m_VersionIndex
+      value: 3188
+      objectReference: {fileID: 0}
     - target: {fileID: 5091155585263568084, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3359,6 +3375,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1311528629}
+    - target: {fileID: 6346950416828526713, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
+      propertyPath: m_VersionIndex
+      value: 4336
+      objectReference: {fileID: 0}
     - target: {fileID: 6412176739006225616, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3387,6 +3407,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 161990576}
+    - target: {fileID: 7638883974082478421, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
+      propertyPath: m_VersionIndex
+      value: 1004
+      objectReference: {fileID: 0}
     - target: {fileID: 7995249286139774741, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3395,6 +3419,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 2121731552}
+    - target: {fileID: 8070406214054675836, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
+      propertyPath: m_VersionIndex
+      value: 667
+      objectReference: {fileID: 0}
     - target: {fileID: 8189042313939204737, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3407,6 +3435,10 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1454809585}
+    - target: {fileID: 8572042230267406639, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
+      propertyPath: m_VersionIndex
+      value: 415
+      objectReference: {fileID: 0}
     - target: {fileID: 8958209042692795126, guid: 0ff7a03fbedf0e145a618ba9b3304752, type: 3}
       propertyPath: m_Mesh
       value: 
@@ -3436,7 +3468,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1961503725
 Transform:
   m_ObjectHideFlags: 0
@@ -4001,7 +4033,7 @@ Mesh:
   m_SubMeshes:
   - serializedVersion: 2
     firstByte: 0
-    indexCount: 24
+    indexCount: 21
     topology: 0
     baseVertex: 0
     firstVertex: 0
@@ -4009,6 +4041,16 @@ Mesh:
     localAABB:
       m_Center: {x: -0.10779634, y: -0.048896253, z: -0.17842913}
       m_Extent: {x: 0.11445752, y: 0.048896253, z: 0.17842913}
+  - serializedVersion: 2
+    firstByte: 42
+    indexCount: 3
+    topology: 0
+    baseVertex: 0
+    firstVertex: 3
+    vertexCount: 3
+    localAABB:
+      m_Center: {x: -0.10779634, y: 0, z: -0.17842913}
+      m_Extent: {x: 0.11445752, y: 0, z: 0.17842913}
   m_Shapes:
     vertices: []
     shapes: []
@@ -4025,7 +4067,7 @@ Mesh:
   m_KeepVertices: 1
   m_KeepIndices: 1
   m_IndexFormat: 0
-  m_IndexBuffer: 0000010002000300040005000800090007000800070006000c000d000b000c000b000a00100011000f0010000f000e00
+  m_IndexBuffer: 0000010002000800090007000800070006000c000d000b000c000b000a00100011000f0010000f000e00030004000500
   m_VertexData:
     serializedVersion: 3
     m_VertexCount: 18
