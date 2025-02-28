@@ -3175,6 +3175,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Outer Wilds space Ship
       objectReference: {fileID: 0}
+    - target: {fileID: 555820063770122043, guid: a88f07d55b5ea5e40b0489d078abf969, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     - target: {fileID: 4132450901686571691, guid: a88f07d55b5ea5e40b0489d078abf969, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
