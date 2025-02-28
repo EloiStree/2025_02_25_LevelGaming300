@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 6295622267438773286}
   - component: {fileID: 3423304755755464282}
   - component: {fileID: 7467197799830251936}
+  - component: {fileID: 6294057474132093105}
   m_Layer: 0
   m_Name: Cube (8)
   m_TagString: Untagged
@@ -124,3 +125,18 @@ MonoBehaviour:
   m_rotationAxis: {x: 1, y: 0, z: 0}
   m_whatToRotate: {fileID: 8030448326750683861}
   m_space: 1
+  m_useAtStart: 0
+--- !u!114 &6294057474132093105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747517607210075900}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f089919c9c71b0740998e4be7d2412dc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_teleportTarget: {fileID: 0}
+  m_usePlayerTag: 1
