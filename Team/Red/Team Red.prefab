@@ -2247,7 +2247,11 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
+<<<<<<< HEAD
+  m_VersionIndex: 3560
+=======
   m_VersionIndex: 3572
+>>>>>>> a6db4cd91440b914b1efdec1ae3dfe5c8a37241f
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4275,7 +4279,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8992688445475145107, guid: 00ee406fedd6b1845ad93734b490e3e6, type: 3}
       propertyPath: m_VersionIndex
+<<<<<<< HEAD
+      value: 1706
+=======
       value: 1715
+>>>>>>> a6db4cd91440b914b1efdec1ae3dfe5c8a37241f
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -10288,7 +10296,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9090948886212531144, guid: fe3b3c8ed928f2641aaedb88780e4142, type: 3}
       propertyPath: m_VersionIndex
+<<<<<<< HEAD
+      value: 16720
+=======
       value: 10792
+>>>>>>> a6db4cd91440b914b1efdec1ae3dfe5c8a37241f
       objectReference: {fileID: 0}
     - target: {fileID: 9090948886212531144, guid: fe3b3c8ed928f2641aaedb88780e4142, type: 3}
       propertyPath: m_SelectedEdges.Array.size
