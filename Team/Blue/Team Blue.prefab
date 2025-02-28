@@ -553,6 +553,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DFlag Octogone GR (13)
       objectReference: {fileID: 0}
+    - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8474539844368695757, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.6
@@ -641,7 +645,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6458627059205106825, guid: fc3a859fcc309354c930ed4fbef222ff, type: 3}
       propertyPath: m_VersionIndex
-      value: 1262
+      value: 1268
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1153,6 +1157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DFlag Octogone GR (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1226,6 +1234,10 @@ PrefabInstance:
     - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
       propertyPath: m_Name
       value: DFlag Octogone GR (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1609,6 +1621,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DFlag Octogone GR (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1991,7 +2007,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1539065759867267334, guid: b90b172caa956474caa13d70bf83f19c, type: 3}
       propertyPath: m_VersionIndex
-      value: 1580
+      value: 1586
       objectReference: {fileID: 0}
     - target: {fileID: 1762377571038268901, guid: b90b172caa956474caa13d70bf83f19c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3193,6 +3209,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DFlag Octogone GR (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4365,7 +4385,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7133503104234350686, guid: 488b5120f39ede44c89298c0d5144be9, type: 3}
       propertyPath: m_VersionIndex
-      value: 3179
+      value: 3185
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5155,7 +5175,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7832513068936403322, guid: 09e85b7c23d5d704691580e968b18318, type: 3}
       propertyPath: m_VersionIndex
-      value: 3182
+      value: 3188
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5798,6 +5818,10 @@ PrefabInstance:
     - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
       propertyPath: m_Name
       value: DFlag Octogone GR (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6449,6 +6473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DFlag Octogone GR (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 5057180932577619179, guid: 0ca71f1aadfa4514192b3c2c552086b3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6525,7 +6553,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5758909622526224009, guid: ddddb6f51f3075842937d35d28d0e469, type: 3}
       propertyPath: m_VersionIndex
-      value: 1641
+      value: 1647
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
