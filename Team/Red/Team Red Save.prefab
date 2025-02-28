@@ -1819,7 +1819,7 @@ Transform:
   m_GameObject: {fileID: 5352715586727392155}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: -1.27, y: 0.81, z: 3.1934}
+  m_LocalPosition: {x: -1.277, y: 0.81, z: 2.897}
   m_LocalScale: {x: 0.45988682, y: 2.2, z: 2}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2259,7 +2259,7 @@ MonoBehaviour:
   m_PreserveMeshAssetOnDestroy: 0
   assetGuid: 
   m_Mesh: {fileID: 0}
-  m_VersionIndex: 3590
+  m_VersionIndex: 3593
   m_IsSelectable: 1
   m_SelectedFaces: 
   m_SelectedEdges: []
@@ -4523,7 +4523,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8992688445475145107, guid: 00ee406fedd6b1845ad93734b490e3e6, type: 3}
       propertyPath: m_VersionIndex
-      value: 1739
+      value: 1742
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6556,11 +6556,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4985337098602848105, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.0056
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4985337098602848105, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0802
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7558757980376703247, guid: 2b553940f332cca4faf477ba1f6f4a04, type: 3}
       propertyPath: m_LocalScale.x
@@ -11874,7 +11874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9090948886212531144, guid: fe3b3c8ed928f2641aaedb88780e4142, type: 3}
       propertyPath: m_VersionIndex
-      value: 16791
+      value: 16794
       objectReference: {fileID: 0}
     - target: {fileID: 9090948886212531144, guid: fe3b3c8ed928f2641aaedb88780e4142, type: 3}
       propertyPath: m_SelectedEdges.Array.size
@@ -18426,7 +18426,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5758909622526224009, guid: ddddb6f51f3075842937d35d28d0e469, type: 3}
       propertyPath: m_VersionIndex
-      value: 1647
+      value: 1650
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
